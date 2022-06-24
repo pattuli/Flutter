@@ -10,13 +10,14 @@ class Homepage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         centerTitle: true,
-        title: Text("Increment"),
+        title: Text("Catalog"),
       ),
       body: Center(
         child: Container(
           child: Text("$days Days of flutter with $name"),
         ),
       ),
+      drawer: Drawer(),
     );
   }
 }
